@@ -1,0 +1,28 @@
+body {
+    background: #24353F;
+    font-family: sans-serif;
+}
+
+h1,h2{
+    color: #17A2B8;
+    font-size: 40px;
+}
+
+.sign-in,.navbar {
+    background: #24353F;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0)
+}
+
+.sign-up {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
+    background-color: unset;
+    border: unset;
+}
+
+.sign-up:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: springgreen;
+}

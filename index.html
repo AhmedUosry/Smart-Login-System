@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ====== Start Home ======  -->
+    <section id="home" class="d-none">
+        <nav>
+            <nav class="navbar navbar-expand-lg  fixed-top">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+                    <a id="logOutButton" href="#" class="btn btn-outline-warning ms-auto">Logout</a>
+                </div>
+            </nav>
+        </nav>
+        <div class="container  d-flex justify-content-center align-items-center vh-100">
+            <div class="sign-in text-center w-75 m-auto p-5  my-5 ">
+                <h1 class="title"></h1>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End Home ======  -->
+
+    <!-- ====== Start Form ======  -->
+    <sction id="form" class="d-block">
+        <div class="container">
+            <div class="sign-in text-center w-75 m-auto p-5  my-5 ">
+                <h2 class="mb-4">Smart Login System</h2>
+                <input id="userName" type="text" class="form-control  mb-4 d-none" placeholder="Enter Your Name">
+                <input id="signInUserMail" type="email" class="form-control d-block mb-4"
+                    placeholder="Enter Your Email">
+                <input id="signinUserPass" type="password" class="form-control d-block mb-4 "
+                    placeholder="Enter Your Password">
+                <input id="userMail" type="email" class="form-control d-none mb-4 " placeholder="Enter Your Email">
+                <input id="userPass" type="password" class="form-control d-none mb-4 "
+                    placeholder="Enter Your Password">
+                <p id="alertMessage" class="text-danger d-none"></p>
+                <p id="success" class="text-success d-none">Success</p>
+                <a id="login" href="#home" class="btn btn-outline-primary w-100 mb-4 d-block">Login</a>
+                <button id="signUp" class="btn btn-outline-primary w-100 mb-4 d-none">Sign Up</button>
+                <p class="question text-white d-inline">Don’t have an account?</p>
+                <button id="signInButton" class="sign-up d-none">Signin</button>
+                <button id="signUpButton" class="sign-up d-inline">SignUp</button>
+            </div>
+        </div>
+    </sction>
+    <!-- ====== End Form ======  -->
+
+    <!-- ====== Js ======  -->
+    <script src="js/script.js"></script>
+    <!-- ====== End JS ======  -->
+</body>
+</body>
+
+</html>
